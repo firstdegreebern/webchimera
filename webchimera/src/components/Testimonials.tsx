@@ -80,18 +80,21 @@ const logoStyle = {
 export default function Testimonials() {
   const { mode, systemMode } = useColorScheme();
 
-  let logos;
-  if (mode === 'system') {
-    if (systemMode === 'light') {
-      logos = lightModeLogos;
-    } else {
-      logos = darkModeLogos;
-    }
-  } else if (mode === 'light') {
-    logos = lightModeLogos;
-  } else {
-    logos = darkModeLogos;
-  }
+  const logos = (mode === 'light' || (mode === 'system' && systemMode === 'light'))
+  ? lightModeLogos
+  : darkModeLogos;
+
+  // if (mode === 'system') {
+  //   if (systemMode === 'light') {
+  //     logos = lightModeLogos;
+  //   } else {
+  //     logos = darkModeLogos;
+  //   }
+  // } else if (mode === 'light') {
+  //   logos = lightModeLogos;
+  // } else {
+  //   logos = darkModeLogos;
+  // }
 
   return (
     <Container
