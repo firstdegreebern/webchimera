@@ -69,7 +69,7 @@ export default function AppAppBar() {
                 FAQ
               </Button>
               <Button variant="text" color="info" size="small" sx={{ minWidth: 0 }}>
-                Blog
+                Download
               </Button>
             </Box>
           </Box>
@@ -80,12 +80,13 @@ export default function AppAppBar() {
               alignItems: 'center',
             }}
           >
-            <Button color="primary" variant="text" size="small">
+            {/* TODO: REPLACE WITH LINKS TO ANDROID AND APP STORE */}
+            {/* <Button color="primary" variant="text" size="small">
               Sign in
             </Button>
             <Button color="primary" variant="contained" size="small">
               Sign up
-            </Button>
+            </Button> */}
             <ColorModeIconDropdown />
           </Box>
           <Box sx={{ display: { xs: 'flex', md: 'none' }, gap: 1 }}>
