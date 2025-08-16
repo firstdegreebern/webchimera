@@ -18,7 +18,7 @@ function Copyright() {
     <Typography variant="body2" sx={{ color: 'text.secondary', mt: 1 }}>
       {'Copyright © '}
       <Link color="text.secondary" href="https://mui.com/">
-        Sitemark
+        Hanzible
       </Link>
       &nbsp;
       {new Date().getFullYear()}
@@ -55,7 +55,7 @@ export default function Footer() {
           }}
         >
           <Box sx={{ width: { xs: '100%', sm: '60%' } }}>
-            <SitemarkIcon />
+            {/* <SitemarkIcon /> */}
             <Typography variant="body2" gutterBottom sx={{ fontWeight: 600, mt: 2 }}>
               Join the newsletter
             </Typography>
@@ -91,7 +91,7 @@ export default function Footer() {
             </Stack>
           </Box>
         </Box>
-        <Box
+        {/* <Box
           sx={{
             display: { xs: 'none', sm: 'flex' },
             flexDirection: 'column',
@@ -156,9 +156,9 @@ export default function Footer() {
           <Link color="text.secondary" variant="body2" href="#">
             Contact
           </Link>
-        </Box>
+        </Box> */}
       </Box>
-      <Box
+      {/* <Box
         sx={{
           display: 'flex',
           justifyContent: 'space-between',
@@ -214,7 +214,7 @@ export default function Footer() {
             <LinkedInIcon />
           </IconButton>
         </Stack>
-      </Box>
+      </Box> */}
     </Container>
   );
 }

@@ -1,8 +1,8 @@
 {
-  "name": "webchimera",
+  "name": "hanzibleweb",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://firstdegreebern.github.io/webchimera",
+  "homepage": "https://hanzible.com",
   "dependencies": {
     "@emotion/react": "^11.14.0",
     "@emotion/styled": "^11.14.1",

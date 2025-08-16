@@ -51,7 +51,7 @@ export default function AppAppBar() {
       <Container maxWidth="lg">
         <StyledToolbar variant="dense" disableGutters>
           <Box sx={{ flexGrow: 1, display: 'flex', alignItems: 'center', px: 0 }}>
-            <Sitemark />
+            {/* <Sitemark /> */}
             <Box sx={{ display: { xs: 'none', md: 'flex' } }}>
               <Button variant="text" color="info" size="small">
                 Features
@@ -62,15 +62,15 @@ export default function AppAppBar() {
               <Button variant="text" color="info" size="small">
                 Highlights
               </Button>
-              <Button variant="text" color="info" size="small">
+              {/* <Button variant="text" color="info" size="small">
                 Pricing
-              </Button>
+              </Button> */}
               <Button variant="text" color="info" size="small" sx={{ minWidth: 0 }}>
                 FAQ
               </Button>
-              <Button variant="text" color="info" size="small" sx={{ minWidth: 0 }}>
+              {/* <Button variant="text" color="info" size="small" sx={{ minWidth: 0 }}>
                 Download
-              </Button>
+              </Button> */}
             </Box>
           </Box>
           <Box
